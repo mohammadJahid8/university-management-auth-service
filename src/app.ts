@@ -1,5 +1,6 @@
 import express, { Application, Response } from 'express'
 import cors from 'cors'
+
 const app: Application = express()
 
 app.use(cors())
@@ -8,7 +9,14 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
-app.get('/', (req, res: Response) => {
+// import routes
+import userRouter from './app/modules/users/users.route'
+
+// all routes
+app.use('/api/v1/users/', userRouter)
+
+// default route
+app.get('/', async (req, res: Response) => {
   res.send('Welcome to the university server!')
 })
 
