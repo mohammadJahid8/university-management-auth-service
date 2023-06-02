@@ -1,5 +1,5 @@
-import express, { Application, Response } from 'express'
 import cors from 'cors'
+import express, { Application, Response } from 'express'
 
 const app: Application = express()
 
