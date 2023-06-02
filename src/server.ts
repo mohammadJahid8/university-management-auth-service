@@ -1,17 +1,18 @@
 import mongoose from 'mongoose'
 import app from './app'
 import config from './config'
+import { errLogger, logger } from './shared/logger'
 
 async function main() {
   try {
     await mongoose.connect(config.database_url as string)
-    console.log('Connected to MongoDB')
+    logger.info('Connected to MongoDB')
 
     app.listen(config.port, () => {
-      console.log(`Server listening on port ${config.port}`)
+      logger.info(`Server listening on port ${config.port}`)
     })
   } catch (err) {
-    console.log('Failed to connect db', err)
+    errLogger.error('Failed to connect db', err)
   }
 }
 
