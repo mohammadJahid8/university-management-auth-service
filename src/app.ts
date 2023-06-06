@@ -1,5 +1,5 @@
 import cors from 'cors'
-import express, { Application, Response } from 'express'
+import express, { Application, Request, Response } from 'express'
 
 const app: Application = express()
 
@@ -10,14 +10,16 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 // import routes
+
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import userRouter from './app/modules/users/users.route'
+import { UserRoutes } from './app/modules/users/user.route'
+// import ApiError from './Erros/ApiError'
 
 // all routes
-app.use('/api/v1/users/', userRouter)
+app.use('/api/v1/users/', UserRoutes)
 
 // default route
-app.get('/', async (req, res: Response) => {
+app.get('/', async (req: Request, res: Response) => {
   res.send('Welcome to the university server!')
 })
 
