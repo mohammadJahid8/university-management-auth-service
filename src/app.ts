@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }))
 // import routes
 
 import globalErrorHandler from './app/middlewares/globalErrorHandler'
-import { UserRoutes } from './app/modules/users/user.route'
+import { UserRoutes } from './app/modules/user/user.route'
 // import ApiError from './Erros/ApiError'
 
 // all routes

@@ -44,6 +44,16 @@
             "date": 1686074922606,
             "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-00-error.log",
             "hash": "e32c0f6c0a0306ad997f3db50cfc25e5765c4693e6760efc6f6efc8c66f42ac0"
+        },
+        {
+            "date": 1686113925226,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-10-error.log",
+            "hash": "dc7105dd0ee1a8fad4c3c6ac39e52e56be9cae2febb9a83f45ab7b02688cba9d"
+        },
+        {
+            "date": 1686114022635,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-07-06-11-error.log",
+            "hash": "1ab990b6ad7f143f84a3f148d7f7803b4005b0cac922c91fe0e8b680c865a461"
         }
     ],
     "hashType": "sha256"
