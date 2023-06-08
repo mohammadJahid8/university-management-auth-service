@@ -1,7 +1,7 @@
 import { Model } from 'mongoose';
 
 // type for month
-type Month =
+export type Month =
   | 'January'
   | 'February'
   | 'March'
@@ -15,10 +15,13 @@ type Month =
   | 'November'
   | 'December';
 
+export type IAcademicSemesterTitles = 'Autumn' | 'Summer' | 'Fall';
+export type IAcademicSemesterCodes = '01' | '02' | '03';
+
 export type IAcademicSemester = {
-  title: 'Autumn' | 'Summer' | 'Fall';
+  title: IAcademicSemesterTitles;
   year: number;
-  code: '01' | '02' | '03';
+  code: IAcademicSemesterCodes;
   startMonth: Month;
   endMonth: Month;
 };
