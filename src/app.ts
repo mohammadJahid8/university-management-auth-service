@@ -12,11 +12,13 @@ app.use(express.urlencoded({ extended: true }));
 // import routes
 
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
+import { AcademicSemesterRoutes } from './app/modules/academicSemester/academicSemester.route';
 import { UserRoutes } from './app/modules/user/user.route';
 // import ApiError from './Erros/ApiError'
 
 // all routes
 app.use('/api/v1/users/', UserRoutes);
+app.use('/api/v1/academic-semesters/', AcademicSemesterRoutes);
 
 // default route
 app.get('/', async (req: Request, res: Response) => {
