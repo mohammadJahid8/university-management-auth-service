@@ -3,9 +3,6 @@ import { AcademicSemesterService } from './academicSemester.service';
 
 const createSemester: RequestHandler = async (req, res, next) => {
   try {
-    // console.log('test', req.body);
-    // const { ...academicSemesterData } = req.body;
-    // console.log(academicSemesterData);
     const result = await AcademicSemesterService.createSemester(req.body);
 
     res.status(200).json({
