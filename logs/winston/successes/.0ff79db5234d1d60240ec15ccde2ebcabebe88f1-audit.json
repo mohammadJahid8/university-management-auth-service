@@ -109,6 +109,11 @@
             "date": 1686501312680,
             "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-11-06-22-success.log",
             "hash": "49675d595a86c61316f39da7a52af9f70db53f2ca7118aab2b51e153b5f746e5"
+        },
+        {
+            "date": 1686502899843,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\successes\\phu-2023-11-06-23-success.log",
+            "hash": "acde52e7d31b8e9a5eb22548541c62e67fbcb8c2b323e863122e2af6c10a2d6a"
         }
     ],
     "hashType": "sha256"
