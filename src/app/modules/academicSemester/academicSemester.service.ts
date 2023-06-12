@@ -108,6 +108,10 @@ const getAllSemesters = async (
 const getSingleSemester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
+  // if (!isValidObjectId(id)) {
+  //   throw new ApiError(httpStatus.BAD_REQUEST, 'Invalid Semester Id!');
+  // }
+
   const result = await AcademicSemester.findById(id);
   return result;
 };
