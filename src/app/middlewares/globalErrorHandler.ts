@@ -52,13 +52,13 @@ const globalErrorHandler: ErrorRequestHandler = (
       ? [{ path: 'error', message: error?.message }]
       : [];
   }
+
   res.status(statusCode).json({
     success: false,
     message,
     errorMessages,
     stack: config.env === 'development' ? error?.stack : undefined,
   });
-
   next();
 };
 
