@@ -159,6 +159,9 @@ const createAdmin = async (
     session.startTransaction();
 
     const id = await generateAdminId();
+
+    console.log(user, admin, id);
+
     user.id = id;
     admin.id = id;
 
@@ -199,8 +202,14 @@ const createAdmin = async (
   return newUserAllData;
 };
 
+const getAllUsers = async (): Promise<IUser[]> => {
+  const users = await User.find({});
+  return users;
+};
+
 export const UserService = {
   createStudent,
   createFaculty,
   createAdmin,
+  getAllUsers,
 };

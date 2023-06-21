@@ -20,5 +20,6 @@ router.post(
   validateRequest(UserValidation.createAdminZodSchema),
   UserController.createAdmin
 );
+router.get('/', UserController.getAllUsers);
 
 export const UserRoutes = router;
