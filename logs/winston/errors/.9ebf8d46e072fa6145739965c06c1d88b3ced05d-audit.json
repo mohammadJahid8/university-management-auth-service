@@ -129,6 +129,11 @@
             "date": 1687507437589,
             "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-14-error.log",
             "hash": "63d0d44b58cab15e58e07320f2ed7c347754c549da0edcaca2f954d3b4a2877a"
+        },
+        {
+            "date": 1687541590967,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-23-error.log",
+            "hash": "50bf2fd6914b5a379e13e0ed1a3b2f6b3598c5096422402f8566e7379ab4cd87"
         }
     ],
     "hashType": "sha256"
