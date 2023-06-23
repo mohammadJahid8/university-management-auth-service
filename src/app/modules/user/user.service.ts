@@ -11,6 +11,7 @@ import { IStudent } from '../student/student.interface';
 import { Student } from '../student/student.model';
 import { IUser } from './user.interface';
 import { User } from './user.model';
+
 import {
   generateAdminId,
   generatedFacultyId,
@@ -159,8 +160,6 @@ const createAdmin = async (
     session.startTransaction();
 
     const id = await generateAdminId();
-
-    console.log(user, admin, id);
 
     user.id = id;
     admin.id = id;
