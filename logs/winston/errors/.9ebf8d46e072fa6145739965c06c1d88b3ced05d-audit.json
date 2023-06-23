@@ -79,6 +79,61 @@
             "date": 1686830597697,
             "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-15-06-18-error.log",
             "hash": "26ee16563966e68556879b7303ec38e5087bf2a6c58b72d75a1a48ab4523228f"
+        },
+        {
+            "date": 1686938722547,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-17-06-00-error.log",
+            "hash": "37bc0185e209004f0a652e744e6d3ef21f2bbdbabee9cf7af2ef98d79a9480e1"
+        },
+        {
+            "date": 1687325403852,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-21-06-11-error.log",
+            "hash": "95b0cb53fc603707e04181e8a2db870ba5020c51a2820667f63cd039705fb1ce"
+        },
+        {
+            "date": 1687327427254,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-21-06-12-error.log",
+            "hash": "b3a5e24ae62880b205434ac6cc2a288d290df0cc161cc24e3ad7d70fba4158df"
+        },
+        {
+            "date": 1687414472794,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-12-error.log",
+            "hash": "a2d094071e03511ee0b434feb214119916d666d856f02ca0ce8745e83c3d8b65"
+        },
+        {
+            "date": 1687417571619,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-22-06-13-error.log",
+            "hash": "8ec28c8d692bf35d0e28ae034afecff4defb59673e6b0d8c5961c2873dfd667f"
+        },
+        {
+            "date": 1687489716338,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-09-error.log",
+            "hash": "c17c3e50a128dc2941495599de4f57855d9ccf7f8a68481c6e04060434630077"
+        },
+        {
+            "date": 1687493525304,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-10-error.log",
+            "hash": "f810944b94c7c380178a1eaf68ec799ac90e34aed57e228e60d128d5adef36de"
+        },
+        {
+            "date": 1687496886985,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-11-error.log",
+            "hash": "d02f673c3816a2a07057424426b7a4755060f5861fef11d910ffbf47e8114fd4"
+        },
+        {
+            "date": 1687500757009,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-12-error.log",
+            "hash": "f1a3eedb4e3ebb82eadacdc185ea5eb2235d5bb3265c1e624b2e6aae0ed57ce3"
+        },
+        {
+            "date": 1687507437589,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-14-error.log",
+            "hash": "63d0d44b58cab15e58e07320f2ed7c347754c549da0edcaca2f954d3b4a2877a"
+        },
+        {
+            "date": 1687541590967,
+            "name": "C:\\Users\\ASUS\\NextLevel\\Modules\\University-of-Programming-hero\\university-management-auth-service\\logs\\winston\\errors\\phu-2023-23-06-23-error.log",
+            "hash": "50bf2fd6914b5a379e13e0ed1a3b2f6b3598c5096422402f8566e7379ab4cd87"
         }
     ],
     "hashType": "sha256"

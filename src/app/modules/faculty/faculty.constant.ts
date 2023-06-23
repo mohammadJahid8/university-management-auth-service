@@ -5,7 +5,7 @@ export const bloodGroup = ['A+', 'A-', 'B+', 'B-', 'O+', 'O-', 'AB+', 'AB-'];
 
 export const FacultyhSearchableFields = [
   'email',
-  'id',
+  'emergencyContactNo',
   'contactNo',
   'name.firstName',
   'name.middleName',
@@ -15,6 +15,8 @@ export const FacultyhSearchableFields = [
 export const FacultyhFilterableFields = [
   'searchTerm',
   'id',
+
+  'designation',
   'bloodGroup',
   'email',
   'contactNo',

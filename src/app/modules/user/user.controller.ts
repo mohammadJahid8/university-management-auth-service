@@ -7,12 +7,14 @@ import { UserService } from './user.service';
 
 const createStudent = catchAsync(async (req: Request, res: Response) => {
   const { student, ...userData } = req.body;
+  console.log('cookie', req.cookies);
+
   const result = await UserService.createStudent(student, userData);
 
   sendResponse<IUser>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'User created successfully',
+    message: 'Student User created successfully',
     data: result,
   });
 });
@@ -25,12 +27,37 @@ const createFaculty = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IUser>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'User created successfully',
+    message: 'Faculty user created successfully',
     data: result,
+  });
+});
+const createAdmin = catchAsync(async (req: Request, res: Response) => {
+  const { admin, ...userData } = req.body;
+
+  const result = await UserService.createAdmin(admin, userData);
+
+  sendResponse<IUser>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Admin user created successfully',
+    data: result,
+  });
+});
+
+const getAllUsers = catchAsync(async (req: Request, res: Response) => {
+  const users = await UserService.getAllUsers();
+
+  sendResponse<IUser[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Users fetched successfully',
+    data: users,
   });
 });
 
 export const UserController = {
   createStudent,
   createFaculty,
+  createAdmin,
+  getAllUsers,
 };

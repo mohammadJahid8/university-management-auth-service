@@ -4,7 +4,10 @@ import {
   IAcademicFaculty,
 } from './academicFaculty.interfaces';
 
-const academicFacultySchema = new Schema<IAcademicFaculty>(
+const academicFacultySchema = new Schema<
+  IAcademicFaculty,
+  AcademicFacultyModel
+>(
   {
     title: {
       type: String,

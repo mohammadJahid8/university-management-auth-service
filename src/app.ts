@@ -1,9 +1,10 @@
+import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import express, { Application, NextFunction, Request, Response } from 'express';
-
 const app: Application = express();
 
 app.use(cors());
+app.use(cookieParser());
 
 // parser
 app.use(express.json());
@@ -39,15 +40,5 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
-
-// const testg = async () => {
-//   const academicSemester = {
-//     code: '01',
-//     year: '2022',
-//   };
-//   const testId = await generatedStudentId(academicSemester);
-//   console.log(testId);
-// };
-// testg();
 
 export default app;
