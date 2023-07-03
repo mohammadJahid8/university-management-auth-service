@@ -35,6 +35,9 @@ const userSchema = new Schema<IUser, UserModel>(
       type: Schema.Types.ObjectId,
       ref: 'Admin',
     },
+    passChangedAt: {
+      type: Date,
+    },
   },
   {
     timestamps: true,
@@ -70,6 +73,11 @@ userSchema.pre('save', async function (next) {
     this.password,
     Number(config.bcrypt_salt_rounds)
   );
+
+  if (!this.needsPasswordChange) {
+    this.passChangedAt = new Date();
+  }
+
   next();
 });
 
